@@ -1,16 +1,32 @@
 .cardcontainer{
-    border: 3px solid black;
+    border: 1px solid black;
     border-radius: 5px;
     margin: 10px;
     width: 20%;
     cursor: pointer;
     background-color: #e1d2b8;
-    box-shadow: 3px 3px 3px black;
-    transition: 0.2s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.2s; padding: 5px;
 }
 
 .cardcontainer:hover{
     opacity: 0.5;
-    width: 21%;
-    
+    transform: scale(1.05);
+}
+
+.cardbtn{
+    padding: 8px 16px;
+    background-color: orange;
+    border-radius: 6px;
+    color: white;
+    border: 1px solid white;
+}
+
+.cardtitle{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cardimg{
+    border-radius: 50%;
 }
