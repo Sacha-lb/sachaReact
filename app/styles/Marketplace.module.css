@@ -1,0 +1,13 @@
+.marketcontainer{
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.marketTitle{
+    text-align: center;
+}

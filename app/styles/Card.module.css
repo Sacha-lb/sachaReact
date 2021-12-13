@@ -1,0 +1,16 @@
+.cardcontainer{
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    width: 20%;
+    cursor: pointer;
+    background-color: #e1d2b8;
+    box-shadow: 3px 3px 3px black;
+    transition: 0.2s;
+}
+
+.cardcontainer:hover{
+    opacity: 0.5;
+    width: 21%;
+    
+}
